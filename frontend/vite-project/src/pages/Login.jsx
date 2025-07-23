@@ -60,7 +60,7 @@ export default function Login() {
           Login
         </button>
       </form>
-      <ClaudeChatbot />
+     
     </div>
   );
 }
