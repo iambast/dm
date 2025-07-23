@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "start": "vite preview --port 5173",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
+
   "dependencies": {
     "ogl": "^1.0.11",
     "react": "^19.1.0",
