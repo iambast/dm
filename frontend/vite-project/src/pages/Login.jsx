@@ -2,7 +2,7 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
-import ClaudeChatbot from '../components/ClaudeChatbot';
+
 import axios from 'axios';
 
 export default function Login() {
