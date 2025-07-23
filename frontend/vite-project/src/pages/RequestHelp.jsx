@@ -20,7 +20,7 @@ export default function RequestHelp() {
     e.preventDefault();
 
     try {
-      const res = await fetch('http://localhost:5000/api/help-requests/request', {
+      const res = await fetch('https://disaster-management-backend-5sdj.onrender.com/api/help-requests/request', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
