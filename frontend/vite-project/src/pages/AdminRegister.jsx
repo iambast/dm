@@ -20,7 +20,7 @@ export default function AdminRegister() {
     e.preventDefault();
 
     try {
-      const res = await fetch('http://localhost:5000/api/admin/register', {
+      const res = await fetch('https://disaster-management-backend-5sdj.onrender.com/api/admin/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
