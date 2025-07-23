@@ -8,7 +8,7 @@ export default function AdminPanel() {
   const [resolvedHelps, setResolvedHelps] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/disasters')
+    axios.get('https://disaster-management-backend-5sdj.onrender.com/api/disasters')
       .then((res) => setDisasters(res.data))
       .catch((err) => console.error("Error fetching disaster reports:", err));
 
