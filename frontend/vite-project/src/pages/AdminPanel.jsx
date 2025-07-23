@@ -12,7 +12,7 @@ export default function AdminPanel() {
       .then((res) => setDisasters(res.data))
       .catch((err) => console.error("Error fetching disaster reports:", err));
 
-    axios.get('http://localhost:5000/api/help-requests')
+    axios.get('https://disaster-management-backend-5sdj.onrender.com/api/help-requests')
       .then((res) => setHelpRequests(res.data))
       .catch((err) => console.error("Error fetching help requests:", err));
   }, []);
