@@ -26,7 +26,7 @@ export default function ReportDisaster() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/disasters/report', formData);
+      const response = await axios.post('https://disaster-management-backend-5sdj.onrender.com/api/disasters/report', formData);
       console.log('Disaster Report Submitted:', response.data);
 
       alert('Disaster reported successfully!');
